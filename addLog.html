@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/addLog.css">
+</head>
+
+<body>
+    <div class="add-product-form">
+        <table id="log-table">
+        </table>
+        <h1>Logs</h1>
+        <form class="log-form">
+            <label for="petId">Pet ID:</label>
+            <input type="text" id="petId" name="petId" required>
+
+            <label for="description">Description:</label>
+            <input type="text" id="description" name="description" required>
+
+            <label for="status">Status:</label>
+            <input type="text" id="status" name="status" required>
+
+            <label for="health-record">Health Record:</label>
+            <textarea id="health-record" name="health-record" required></textarea>
+
+            <button type="submit">Add Log</button>
+        </form>
+        <p class="success-message"></p>
+        <a href="index.html" class="links">Back to Catalog</a>
+    </div>
+</body>
+
+</html>

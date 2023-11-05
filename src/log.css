@@ -1,0 +1,127 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    color:#fff;
+    padding: 20px 0;
+    text-align: center;
+}
+main{
+    max-width: 1200px;
+    margin: 10px auto;
+    padding: 20px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image img {
+    width: 100px;
+    height: 100px;
+    margin-left: 50px; /* Atstumas tarp nuotraukos ir meniu (keiskite pagal poreikius) */
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin-right: 100px; /* Atstumas tarp meniu elementų (keiskite pagal poreikius) */
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #f3b57e;
+}
+.title{
+    position: relative;
+    }
+
+    .buttons {
+        text-align: center;
+        margin-top: 20px;
+    }
+.button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    
+}
+.btn-prescriptions{
+    padding: 0px 10px;
+    
+}
+.btn-prescriptions a{
+    text-decoration: none;
+    color: #f3b57e;;
+    padding: 15px 40px;
+        color: #fff;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: #FB8016;
+}
+    
+.btn-log a{
+    padding: 10px 30px;
+    font-size: 16px;
+    border: 2px solid #E5C99A;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #F49544;
+    text-decoration: none;
+}
+.logs{
+    text-decoration: none;
+    color: #f3b57e;;
+    padding: 15px 40px;
+        color: #fff;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: #FB8016;
+}
+    .display{
+        padding: 20px;
+    }
+.Log-list{
+    display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+    
+    .Log-List-Management{
+        position: relative;
+        background-color: rgb(241, 240, 240);
+        padding: 40px;
+        width: 330px;
+        height: 120px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        text-align: center;
+    }
+    
+    .Log-List-Management h2{
+        font-size: 1.2em;
+        margin: 10px 0;
+    }
+    
+    .Log-List-Management p{
+        color: #666;
+        margin: 5px 0;
+    }
+    
+    footer{
+        text-align: center;
+    }

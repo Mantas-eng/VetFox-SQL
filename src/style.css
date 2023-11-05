@@ -1,0 +1,122 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    color:#fff;
+    padding: 20px 0;
+    text-align: center;
+}
+main{
+    max-width: 1200px;
+    margin: 10px auto;
+    padding: 20px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image img {
+    width: 100px;
+    height: 100px;
+    margin-left: 50px; /* Atstumas tarp nuotraukos ir meniu (keiskite pagal poreikius) */
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin-right: 100px; /* Atstumas tarp meniu elementų (keiskite pagal poreikius) */
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #f3b57e;
+}
+.title{
+    position: relative;
+    }
+
+    .buttons {
+        text-align: center;
+        margin-top: 20px;
+    }
+.btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 15px 30px;
+    background-color: #FB8016;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    }
+
+    .btn-ViewLog {
+        padding: 15px 30px;
+        color: #fff;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: #FB8016;
+    }
+    
+    .btn-Delete {
+        padding: 15px 30px;
+        font-size: 16px;
+        border: 2px solid #E5C99A;
+        border-radius: 5px;
+        cursor: pointer;
+        color: #F49544;
+    }
+
+    .btn:hover{
+        background-color: #262c46;
+    }
+
+    .Pet-list{
+        display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        
+        .Pet-List-Management{
+            position: relative;
+            background-color: rgb(241, 240, 240);
+            padding: 40px;
+            width: 330px;
+            height: 400px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            text-align: center;
+        }
+        .Pet-List-Management img {
+            width: 250px;
+            height: 150px;
+        }
+        .Pet-List-Management h2{
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+        
+        .Pet-List-Management p{
+            color: #666;
+            margin: 5px 0;
+        }
+        
+        footer{
+            text-align: center;
+        }
+        

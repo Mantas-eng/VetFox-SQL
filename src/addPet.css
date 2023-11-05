@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("/img/desk-dark-concept-with-copy-space.jpeg");
+    background-size: cover;
+}
+header {
+    height: 90px;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.logo img {
+    font-size: 1.8rem;
+    width: 100px;
+    height: 100px;
+}
+.nav {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+.img-resize {
+    max-width: 200px;
+    max-height: 200px;
+}
+.add-product-form {
+    background: url("../img/360_F_424352469_WJYlrdisV68nj5yh3MWteLh8qohN7AZU.jpeg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(81, 76, 76, 0.1);
+    margin:30px auto;
+    max-width: 1000px;
+    padding: 35px;
+}
+
+.add-product-form h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.preke-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.preke-form input[type="text"],
+.preke-form input[type="url"],
+.preke-form input[type="number"],
+.preke-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.preke-form button[type="submit"] {
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+.preke-form button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+.success-message {
+    color: #00a000;
+    font-weight: bold;
+}
+.add-product-form a {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+}
+.links{
+    text-decoration: none;
+    color: #333;
+}
+.links:hover{
+    color: #f7f7f7;
+}

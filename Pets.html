@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pridėti naują prekę</title>
+    <link rel="stylesheet" href="./src/addPet.css">
+</head>
+
+<body>
+    <div>
+        <header>
+            <div class="logo">
+                <img src="./img/image-from-rawpixel-id-12163499-png.png" alt="pet">
+            </div>
+            <ul class="nav">
+                <li><a href="./index.html">All Pets</a></li>
+                <li><a href="./addRecipe.html">Insert prescription</a></li>
+            </ul>
+        </header>
+        <div class="add-product-form">
+            <h1>Add Pets</h1>
+            <form class="preke-form">
+
+                <label for="name">Name:</label>
+                <input type="text" id="title" name="title" required><br>
+
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" step="0.01" required><br>
+
+                <label for="img_url">img_Url:</label>
+                <input type="url" id="img_url" name="img_url" required><br>
+
+                <label for="price">Price:</label>
+                <input type="number" id="price" name="price" step="0.01" required><br>
+
+                <label for="species">Species:</label>
+                <input type="text" id="species" name="species" required><br>
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required><br>
+
+                <label for="client_email">Client Email:</label>
+                <input type="email" id="client_email" name="client_email" required><br>
+                <button type="submit">Add Product:</button>
+                <img src="${img_url}" alt="${name}" class="img-resize">
+
+            </form>
+            <p class="success-message"></p>
+            <a href="index.html" class="links">back to catalog</a>
+        </div>
+        <script src="AddPet.js"></script>
+</body>
+
+</html>

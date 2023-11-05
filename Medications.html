@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Medication</title>
+    <link rel="stylesheet" href="./src/addMedication.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="./img/image-from-rawpixel-id-12163499-png.png" alt="pet">
+        </div>
+        <ul class="nav">
+            <li><a href="./index.html">All Pets</a></li>
+            <li><a href="./log.html">Insert Prescription</a></li>
+        </ul>
+    </header>
+
+    <div class="add-product-form">
+        <table id="log-table">
+            <!-- Table headers and rows should go here -->
+        </table>
+        <h1>Medications</h1>
+        <form class="preke-form">
+
+            <label for="petId">Pet ID:</label>
+            <input type="text" id="petId" name="petId" required>
+
+            <label for="name">Medication Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="description">Description:</label>
+            <input type="text" id="description" name="description" required>
+
+            <label for="medication-instructions">Usage Instructions:</label>
+            <textarea id="medication-instructions" name="instructions" required></textarea>
+
+            <label for="status">Status:</label>
+            <input type="text" id="status" name="status" required>
+
+            <button type="submit">Add Medication</button>
+        </form>
+        <p class="success-message"></p>
+        <a href="index.html" class="links">Back to Catalog</a>
+    </div>
+    <p class="success-message"></p>
+    <a href="index.html" class="links">Back to Catalog</a>
+    </div>
+
+    <script type="module" src="./addMedication.js"></script>
+</body>
+
+</html>

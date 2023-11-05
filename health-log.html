@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pridėti naują prekę</title>
+    <link rel="stylesheet" href="./src/health-log.css">
+</head>
+
+<body>
+    <div>
+        <header>
+            <div class="logo">
+                <img src="./img/image-from-rawpixel-id-12163499-png.png" alt="pet">
+            </div>
+            <ul class="nav">
+                <li><a href="./index.html">All Pets</a></li>
+                <li><a href="./addRecipe.html">Insert prescription</a></li>
+            </ul>
+        </header>
+        <div class="add-product-form">
+            <h1>Add a Health Log Entry</h1>
+            <form class="preke-form">
+                <label for="log-date">Date:</label>
+                <input type="date" id="log-date" name="title" required><br>
+
+                <label for="log-description">Description:</label>
+                <textarea id="log-description" required></textarea>
+
+                <button type="submit">Add Log Entry:</button>
+            </form>
+            <p class="success-message"></p>
+            <a href="index.html" class="links">back to catalog</a>
+        </div>
+        <script type="module" src="./addProduct.js"></script>
+</body>
+<script src="AddPet.js"></script>
+
+</html>

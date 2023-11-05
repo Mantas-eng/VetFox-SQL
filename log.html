@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VetFox</title>
+    <link rel="stylesheet" type="text/css" href="src/log.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="image">
+                <img src="./img/image-from-rawpixel-id-12163499-png.png" alt="fox">
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="/Pets.html">Pets</a></li>
+                    <li><a href="/Medications.html">Medications</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <main>
+        <div class="title">
+            <h1>Health Log</h1>
+            <div class="display">
+                <h2>Display</h2>
+                <button class="logs" type="button" id="logs">Logs</button>
+                <button class="logs" type="button" id="prescriptions">Prescriptions</button>
+            </div>
+            <div class="button">
+                <div class="btn-prescriptions">
+                    <a href="/Medications.html">ADD PRESCRIPTION</a>
+                </div>
+                <div class="btn-log">
+                    <a href="/Medications.html">ADD LOG</a>
+                </div>
+            </div>
+        </div>
+        <!-- Your form content -->
+        <div class="add-log-form">
+
+        </div>
+        <select id="filter-select">
+            <option value="logs">Logs</option>
+            <option value="prescriptions">Prescriptions</option>
+        </select>
+        <section class="Log-list">
+            <div class="Log-List-Management" data-id="${membershipId}">
+                <h2>Huberium Celliulitus</h2>
+                <p>Description</p>
+                <p>2014-02-13</p>
+            </div>
+
+            <div class="Log-List-Management" data-id="${membershipId}">
+                <h2>Tick Vaccine</h2>
+                <p>Description</p>
+                <p>2016-01-01</p>
+            </div>
+            <div class="Log-List-Management" data-id="${membershipId}">
+                <h2>Tick Vaccine</h2>
+                <p>Description</p>
+                <p>2015-02-01</p>
+            </div>
+            <div class="Log-List-Management" data-id="${membershipId}">
+                <h2>Tick Vaccine</h2>
+                <p>Description</p>
+                <p>2015-01-01</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>Copyright &copy;2023 vetFox</footer>
+    <script src="logs.js"></script>
+</body>
+
+</html>
